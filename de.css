@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Scroll bar 
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+  Track
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+Handle
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
+
+  
+  /* Header Styles */
+  .header {
+    background-color: #050505;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #fff7f7;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff7f7;
+  }
+
+  /* div.hero {   
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+  } */
+
+div.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
+.hero h1 {
+    font-family: 'League Script';
+    line-break: auto; 
+    color: antiquewhite;
+    line-height: 1.6;
+    font-size: 3rem;
+    margin-top: 0;
+    padding: 1rem;
+  } 
+  
+  .hero p {
+    font-family:'Style Script';
+    color: antiquewhite;
+    line-height: 1.6;
+    font-size: 1.8rem;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    padding: 1rem;
+  } 
+
+.btn {
+  display: inline-block;
+  background-color: antiquewhite;
+  color: #252424;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 30rem;
+  border-radius: 5px;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.btn:hover {
+  background-color: #050505;
+  color: antiquewhite;
+  transform: scale(1.05); 
+}
+
+  /* Footer Styles */
+  .footer {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
