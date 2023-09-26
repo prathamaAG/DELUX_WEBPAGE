@@ -6,14 +6,16 @@ body, h1, h2, h3, p {
 
 /* Basic styling for body */
 body {
-    font-family: 'League Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Style Script', cursive;
     background-color: #181717;
     color: antiquewhite;
 }
 
 /* Header styles */
 .header {
-    padding: 1rem;
+    font-size: 25px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -23,6 +25,10 @@ body {
     justify-content: space-between;
     background-color: #050505;
     padding: 0.5rem;
+}
+.login-button {
+    float: left; 
+    margin: 15px; 
 }
 
 .logo {
@@ -101,7 +107,8 @@ body {
 
 .prev-button,
 .next-button {
-    padding: 8px 15px;
+    font-size: 20px;
+    padding: 10px 25px;
     background-color: #050505;
     color: #fff7f7;
     margin: 0 10px;
@@ -114,12 +121,11 @@ body {
 .prev-button:hover,
 .next-button:hover {
     background-color: #333;
-    
-}
-
+    }
 
 /* Footer styles */
 .footer {
+    font-family: 'Bebas Nueue', sans-serif;
     background-color: #050505;
     color: #fff;
     text-align: center;
